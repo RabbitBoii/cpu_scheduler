@@ -12,7 +12,11 @@ Users can input the details of each process and see the scheduling results, incl
 
 ## Features
 
-- **First-Come, First-Served (FCFS)**: Executes processes in the order they arrive.
-- **Shortest Job First (SJF) Non-Preemptive**: Selects the process with the shortest burst time.
-- **Shortest Remaining Time First (SRTF) Preemptive**: Preemptive version of SJF, selects the process with the shortest remaining time.
-- **Round Robin (RR)**: Each process is assigned a fixed time in a cyclic order.
+##First-Come, First-Served (FCFS)
+
+First-Come, First-Served (FCFS) is one of the simplest CPU scheduling algorithms. In FCFS, processes are executed in the order they arrive in the ready queue. The process that arrives first gets executed first, and the next process starts only after the current process has completed its execution. This non-preemptive approach ensures that each process runs to completion without interruption once it starts.
+
+##Shortest Remaining Time First (SRTF) Preemptive
+
+Shortest Remaining Time First (SRTF) is a preemptive version of the Shortest Job First (SJF) scheduling algorithm. In SRTF, the scheduler always selects the process with the smallest amount of remaining execution time to run next. If a new process arrives with a shorter remaining time than the current process, the current process is preempted, and the new process is executed. This approach minimizes the average waiting time and turnaround time, as shorter processes are prioritized.
+
