@@ -79,11 +79,6 @@ caption {
 
 .Green3D {
     background: #9F70FD;
-    /* background-image: -webkit-linear-gradient(top, #3DAAF6, #558704);
-    background-image: -moz-linear-gradient(top, #3DAAF6, #558704);
-    background-image: -ms-linear-gradient(top, #3DAAF6, #558704);
-    background-image: -o-linear-gradient(top, #3DAAF6, #558704);
-    background-image: -webkit-gradient(to bottom, #3DAAF6, #558704); */
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
@@ -107,13 +102,7 @@ caption {
 }
 
 .Green3D:hover {
-    /* border: solid #77270D 1px; */
     background: #6528F7;
-    /* background-image: -webkit-linear-gradient(top, #0B5724, #4F3DF6);
-    background-image: -moz-linear-gradient(top, #0B5724, #4F3DF6);
-    background-image: -ms-linear-gradient(top, #0B5724, #4F3DF6);
-    background-image: -o-linear-gradient(top, #0B5724, #4F3DF6);
-    background-image: -webkit-gradient(to bottom, #0B5724, #4F3DF6); */
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
